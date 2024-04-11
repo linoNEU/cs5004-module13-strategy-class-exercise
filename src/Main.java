@@ -1,4 +1,5 @@
-package connect;
+import connect.ConnectFourModel;
+import connect.ConnectFourModelImpl;
 
 /**
  * Driver class for the Connect 4 game. The game can switch between different strategies for the
