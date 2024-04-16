@@ -21,6 +21,7 @@ public class Main {
 
     // We now switch strategy to DefensiveGameStrategy.
     // We check that the game is working as expected.
+    // TODO: Switch the strategy to DefensiveGameStrategy.
     // TODO: Test the game with the DefensiveGameStrategy.
 
   }
