@@ -60,7 +60,7 @@ public class ConnectFourModelImpl implements ConnectFourModel {
     }
 
     // Strategy for the Yellow player
-    if (this.getTurn() == Player.YELLOW) {
+    if (this.getTurn() == Player.YELLOW && !this.isGameOver()) {
       int nextMove = strategy.getNextMove(this.getBoardState(), Player.YELLOW);
       makeMove(nextMove);
     }

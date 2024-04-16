@@ -1,5 +1,6 @@
 import connect.ConnectFourModel;
 import connect.ConnectFourModelImpl;
+import connect.DefensiveGameStrategy;
 
 /**
  * Driver class for the Connect 4 game. The game can switch between different strategies for the
@@ -16,11 +17,11 @@ public class Main {
 
     // The Default strategy is RandomGameStrategy.
     // We check that the game is working as expected.
-    // TODO: Verify this
+    // TODO: Test the game with the RandomGameStrategy.
 
     // We now switch strategy to DefensiveGameStrategy.
     // We check that the game is working as expected.
-    // TODO: Verify this
+    // TODO: Test the game with the DefensiveGameStrategy.
 
   }
 
